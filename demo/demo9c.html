@@ -1,0 +1,98 @@
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+    rel='stylesheet'>
+    
+    <link rel="stylesheet" href="../asset/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="../css/style0c_demo.css">
+    
+    
+
+  <!-- Swiper JS -->
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script src="../asset/swiper-bundle.min.js"></script>
+    
+    <script src="page00c.js"></script>
+    
+
+</head>
+
+<body>   
+
+  
+    <p class="text_steps" id="text_steps1"> 0 / 0. </p>
+
+
+  <!-- Controller Button -->
+  <div class="controller" > 
+    <div> <i class='bx bx-chevron-up-circle' id="control_up1"></i> </div>
+    <div> <i class='bx bx-pause-circle' id="control_pause1"></i> </div>
+    <div> <i class='bx bx-chevron-down-circle' id="control_down1"></i> </div>
+    
+    <div> <i class='bx bx-plus-circle ' id="control_plus1"></i> </div>
+    <div> <i class='bx bx-minus-circle' id="control_minus1"></i> </div>
+    
+    <div> <i class='bx bx-expand' id="control_all1"></i> </div>
+    <div> <i class='bx bx-mobile-landscape' id="control_rotate1"></i> </div>
+  </div>  
+
+  
+  <!-- Swiper Progress -->
+  <div class="swiper-pagination progress1" ></div>
+
+  <div class="autoplay-progress progress1">
+    <svg viewBox="0 0 48 48">
+      <circle cx="24" cy="22" r="15" ></circle>
+    </svg>
+    <span class="circle_text"></span>
+  </div>
+  
+  
+
+<!-- Swiper Content -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      
+      <swiper-slide class="swiper-slide" >
+        <div class="demo_intro swiper-zoom-container" >
+          <span id="demo_title2"> 解决Revit与Twinmotion材料库无法快速匹配的问题 <br> </span>
+          <img src="../img_demo/9c1_csvLoad.gif" class="demo_img"> <br> 
+        </div>
+      </swiper-slide>
+      
+      <swiper-slide class="swiper-slide" >
+        <div class="demo_intro swiper-zoom-container" >
+          展开面板后点击 载入 按钮,  <br>  
+          将依照所选CSV挡案自动匹配 Revit 项目中材料和 TwinMotion 材料库: <br>  
+          <img src="../img_demo/9c1.png" class="demo_img"> <br> 
+          <br>  
+        </div>
+      </swiper-slide>
+
+      <swiper-slide class="swiper-slide" >
+        <div class="demo_intro swiper-zoom-container" >
+          若需复写既有的或空白的匹配材料, <br>  
+          先在第一栏的选择 代号 -> 接着在第二栏选择 Csv 材料名 <br>  
+          <br>  
+          <img src="../img_demo/9c2_csvAdjust.gif" class="demo_img"> <br> 
+          <br>  
+        </div>
+      </swiper-slide>
+
+      <swiper-slide class="swiper-slide" >
+        <div class="demo_intro swiper-zoom-container" >
+          匹配更换完成后可在其他页签确认已经修改的材料 <br>  
+          <br>  
+          <img src="../img_demo/9c3_csvCheck.gif" class="demo_img"> <br> 
+          <br>  
+          最后勾选 复写CSV 以覆盖先前载入的档案 <br>  
+        </div>
+      </swiper-slide>
+
+    </div>
+
+  </div>
+
+</body>

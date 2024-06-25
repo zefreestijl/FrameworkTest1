@@ -1,0 +1,18 @@
+.anim_pointer{
+    position: absolute; 
+    left: 100px; top: 100px;
+    font-size: 60px; z-index: 10;
+    color: darkred;
+
+    transition: all 1s ease-in-out;
+}
+
+.demo_img{
+    transition: all .5s linear;
+}
+
+.new{
+    position: absolute;
+    opacity: 1;
+}
+

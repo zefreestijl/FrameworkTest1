@@ -1,0 +1,113 @@
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+    rel='stylesheet'>
+    
+    <link rel="stylesheet" href="../asset/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="../css/style0c_demo.css">
+    
+    
+
+  <!-- Swiper JS -->
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script src="../asset/swiper-bundle.min.js"></script>
+    
+    <script src="page00c.js"></script>
+    
+
+</head>
+
+<body>   
+
+  
+    <p class="text_steps" id="text_steps1"> 0 / 0. </p>
+
+
+  <!-- Controller Button -->
+  <div class="controller" > 
+    <div> <i class='bx bx-chevron-up-circle' id="control_up1"></i> </div>
+    <div> <i class='bx bx-pause-circle' id="control_pause1"></i> </div>
+    <div> <i class='bx bx-chevron-down-circle' id="control_down1"></i> </div>
+    
+    <div> <i class='bx bx-plus-circle ' id="control_plus1"></i> </div>
+    <div> <i class='bx bx-minus-circle' id="control_minus1"></i> </div>
+    
+    <div> <i class='bx bx-expand' id="control_all1"></i> </div>
+    <div> <i class='bx bx-mobile-landscape' id="control_rotate1"></i> </div>
+  </div>  
+
+  
+  <!-- Swiper Progress -->
+  <div class="swiper-pagination progress1" ></div>
+
+  <div class="autoplay-progress progress1">
+    <svg viewBox="0 0 48 48">
+      <circle cx="24" cy="22" r="15" ></circle>
+    </svg>
+    <span class="circle_text"></span>
+  </div>
+  
+  
+
+<!-- Swiper Content -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      
+      <swiper-slide class="swiper-slide" >
+        <div class="demo_intro swiper-zoom-container" >
+          <span id="demo_title2"> 解决Revit自带隔离工具无法作细项筛选的问题 <br> </span>
+          展开面板后将依照前一步所选分类列出图层清单: <br> 
+          <span id="demo_title1">1. 依材料 (目前尚无法依材料导出三维档案, 仅能生成清单作隔离和预览) <br> </span>
+          <img src="../img_demo/9b1_listMaterial.gif" class="demo_img"> <br>  
+        </div>
+      </swiper-slide>
+      
+      <swiper-slide class="swiper-slide" >
+        <div class="demo_intro swiper-zoom-container" >
+          展开面板后将依照前一步所选分类列出图层清单: <br> 
+          <span id="demo_title1">2. 依类别 (目前尚无法套用依类别的选项至各链接模型, 仅能对当前项目的模型作分色清单) <br> </span>
+          <img src="../img_demo/9b2_listCategory.gif" class="demo_img"> <br>  
+        </div>
+      </swiper-slide>
+      
+      <swiper-slide class="swiper-slide" >
+        <div class="demo_intro swiper-zoom-container" >
+          展开面板后将依照前一步所选分类列出图层清单: <br> 
+          <span id="demo_title1">3. 依链接 (尚无法同时列出链接模型和项目中模型的清单) <br> </span>
+          <img src="../img_demo/9b3_listLink.gif" class="demo_img"> <br>  
+        </div>
+      </swiper-slide>
+
+      <swiper-slide class="swiper-slide" >
+        <div class="demo_intro swiper-zoom-container" >
+          点击 隔离 按钮可依照所勾选的图层进行隔离: <br> 
+          <span id="demo_title1">1. 依材料 <br> </span>
+          <img src="../img_demo/9b1_isoMaterial.gif" class="demo_img"> <br>  
+        </div>
+      </swiper-slide>
+      
+      <swiper-slide class="swiper-slide" >
+        <div class="demo_intro swiper-zoom-container" >
+          点击 隔离 按钮可依照所勾选的图层进行隔离: <br> 
+          <span id="demo_title1">2. 依类别 <br> </span>
+          <img src="../img_demo/9b2_isoCategory.gif" class="demo_img"> <br>  
+        </div>
+      </swiper-slide>
+
+      <swiper-slide class="swiper-slide" >
+        <div class="demo_intro swiper-zoom-container" >
+          点击 隔离 按钮可依照所勾选的图层进行隔离: <br> 
+          <span id="demo_title1">3. 依链接 <br> </span>
+          <img src="../img_demo/9b3_isoLink.gif" class="demo_img"> <br>  
+          最后点击 导出 按钮即可依所勾选的图层分别导出三维模型档案
+        </div>
+      </swiper-slide>
+
+    </div>
+
+    
+  </div>
+
+</body>

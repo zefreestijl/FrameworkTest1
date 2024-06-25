@@ -1,0 +1,282 @@
+:root{    
+  --color_grey: #d6d6d6;
+  --color_grey_dark: #747474;
+  --color_grey_light: #f5f5f5;
+
+  --icon_color_hover: #eb6c6c;
+  --width_expand: 21.3rem;
+  --width_content: 18.8rem;
+
+  --icon_color_btn_icon1: burlywood;
+  --icon_color_btn_icon2: darkseagreen;
+  --icon_color_btn_icon3: lightskyblue;
+  --icon_color_btn_icon4: darkkhaki;
+
+  --icon_color_btn_icon1d: rgb(185, 152, 108);
+  --icon_color_btn_icon2d: rgb(111, 148, 111);
+  --icon_color_btn_icon3d: rgb(85, 130, 158);
+  --icon_color_btn_icon4d: rgb(151, 147, 84);
+}
+
+
+
+
+
+  /* 0a. Icon - Play */
+  .tool1{
+    font-size: 60px; color: var(--color_grey_dark);
+    position: relative; 
+    align-content: center;
+    text-align: center; vertical-align: middle;
+  }
+
+
+
+  .icon_playback1{    
+    opacity: 0; 
+    transition: all .2s linear;
+
+    position: relative; 
+    text-align: center; vertical-align: middle;
+  }
+
+
+  /* 1a. Title - Layout */
+  #btn_title1, #btn_title2, #btn_title3, #btn_title4{
+    
+    background-color: rgb(1,1,1, 0); 
+    margin-bottom: 10px; margin-top: 3px; 
+    margin-left: 2px;
+    border: none; 
+    width: 99%; height: 20px;
+  }
+  
+  #btn_title1:hover, #btn_title2:hover, #btn_title3:hover, #btn_title4:hover{
+    box-shadow: 0 2px 4px rgba(0,0,0, .2);
+    opacity: .5;
+
+    cursor: ns-resize;
+  }
+
+
+  #btn_title1{
+    background-image: 
+    linear-gradient(45deg, var(--icon_color_btn_icon1), white );
+  }
+  #btn_title2{
+    background-image: 
+    linear-gradient(45deg, var(--icon_color_btn_icon2), white );
+  }
+  #btn_title3{
+    background-image: 
+    linear-gradient(45deg, var(--icon_color_btn_icon3), white );
+  }
+  #btn_title4{
+    background-image: 
+    linear-gradient(45deg, var(--icon_color_btn_icon4), white );
+  }
+
+
+
+  #page_title1{ 
+    float: left; width:50%; font-weight: bold; 
+    text-align: left; padding-left: 10px;
+
+  }
+
+  /*
+  #page_title1:hover{ 
+    
+    cursor: ns-resize;
+  }
+  */
+  
+  #page_title2{
+    color: var(--color_grey_dark);
+    text-align: right;  padding-right: 10px;  
+    float: right; width:25%; 
+  }
+
+
+  /* 1b. Title - Icon*/
+.bx:not(.icon_playback1):hover{
+    color: var(--icon_color_hover);
+    
+}
+
+
+.panel0{  
+  padding-left: 2px;
+  overflow-y: scroll;
+  max-height: 90%;
+  overflow-x: hidden;
+}
+
+
+
+/* 2a. Expand - Layout */
+.collapsible1 {
+    background-color:var(color_grey_light); 
+    color: var(--color_grey_dark);
+    
+    cursor: pointer; height: 35px;
+    padding: 5px; width: var(--width_expand);
+    padding-right: 13px;
+    text-align: left; outline: none;
+    font-size: 15px; font-weight: bolder;
+    
+    left: 2px; position: relative;
+    border: none;
+  }
+  
+.active1, .collapsible1:hover {
+    background-color:  var(--color_grey);
+  }
+  
+.collapsible1:after {
+    content: '\002B'; color: white;
+    font-weight: bold; float: right; margin-left: 5px; 
+  }
+
+  .active1:after {
+    content: "\2212";
+  }
+  
+
+/* Border Color */
+  #color_col1, #color_cont1{
+    border-color: var(--icon_color_btn_icon1);
+    
+  }
+
+  #color_col2, #color_cont2{
+    border-color: var(--icon_color_btn_icon2);
+    
+  }
+
+  #color_col3, #color_cont3{
+    border-color: var(--icon_color_btn_icon3);
+    
+  }
+
+  #color_col4, #color_cont4{
+    border-color: var(--icon_color_btn_icon4);
+    
+  }
+
+
+
+
+  #color_col1, #color_col2, #color_col3, #color_col4{
+    border-width: 2px;
+    border-style: solid; border-bottom: none;
+
+  }
+
+  #color_cont1, #color_cont2, #color_cont3, #color_cont4{
+    border-width: 2px;
+    border-style: solid; border-top: none;
+
+  }
+
+  
+
+
+/*  */
+.content1 {  
+  background-size: 100%; background-repeat: no-repeat;
+    padding: 0 18px; max-height: 0; overflow: hidden; 
+    width: var(--width_content);
+
+    background-position: center;
+    transition: max-height 0.2s ease-out; 
+    background-color: var(--color_grey_light);
+    
+    left: 2px; position: relative;
+  }
+
+
+  .break1{
+    height: 5px;
+    
+  }
+
+
+  /* 2b. Expand - Hover */
+  .collapsible1:hover{
+    box-shadow: 0 2px 4px rgba(0,0,0, .2);
+
+    
+  }
+
+  .content1:hover{
+    background-size: 101%;    
+    box-shadow: 0 2px 4px rgba(0,0,0, .2);    
+  }
+
+
+
+
+  /* 3. Scroll Bar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white; 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: var(--color_grey); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color_grey_dark); 
+}
+
+::-webkit-scrollbar:hover {
+  width: 10px;
+}
+
+
+/* 4. Intro0 */
+.intro0{
+  font-size: 12px;  padding: 0px;
+  text-align: left;
+  color: var(--color_grey_dark);
+
+  word-wrap: break-word; white-space: pre-wrap;
+  line-height: 13.5px;
+  user-select: none;
+}
+    
+#intro_title1
+{
+  font-weight: bold; font-size: 13px;
+
+  pointer-events: none;
+  
+}
+
+/* */
+#intro_title1.color_intro1
+{
+  color: var(--icon_color_btn_icon1d);
+}
+
+#intro_title1.color_intro2
+{
+  color: var(--icon_color_btn_icon2d);
+}
+
+#intro_title1.color_intro3
+{
+  color: var(--icon_color_btn_icon3d);
+}
+
+#intro_title1.color_intro4
+{
+  color: var(--icon_color_btn_icon4d);
+}

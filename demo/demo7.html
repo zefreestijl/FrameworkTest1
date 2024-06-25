@@ -1,0 +1,86 @@
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+    rel='stylesheet'>
+    
+    <link rel="stylesheet" href="../asset/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="../css/style0c_demo.css">
+    
+    
+
+  <!-- Swiper JS -->
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script src="../asset/swiper-bundle.min.js"></script>
+    
+    <script src="page00c.js"></script>
+    
+
+</head>
+
+<body>   
+
+  
+    <p class="text_steps" id="text_steps1"> 0 / 0. </p>
+
+  <!-- Controller Button -->
+  <div class="controller" > 
+    <div> <i class='bx bx-chevron-up-circle' id="control_up1"></i> </div>
+    <div> <i class='bx bx-pause-circle' id="control_pause1"></i> </div>
+    <div> <i class='bx bx-chevron-down-circle' id="control_down1"></i> </div>
+    
+    <div> <i class='bx bx-plus-circle ' id="control_plus1"></i> </div>
+    <div> <i class='bx bx-minus-circle' id="control_minus1"></i> </div>
+    
+    <div> <i class='bx bx-expand' id="control_all1"></i> </div>
+    <div> <i class='bx bx-mobile-landscape' id="control_rotate1"></i> </div>
+  </div>  
+
+  
+  <!-- Swiper Progress -->
+  <div class="swiper-pagination progress1" ></div>
+
+  <div class="autoplay-progress progress1">
+    <svg viewBox="0 0 48 48">
+      <circle cx="24" cy="22" r="15" ></circle>
+    </svg>
+    <span class="circle_text"></span>
+  </div>
+  
+  
+
+
+<!-- Swiper Content -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      
+        <swiper-slide class="swiper-slide" >
+            <div class="demo_intro swiper-zoom-container" >
+                <img src="../img_demo/7.jpg" class="demo_img"> <br> 
+                07页签目前已制作四个主要工具:  <br>
+                <br>
+                <span id="demo_title1">a. Manage ViewSheet By Views 依视图新建或放入图纸 <br></span>
+                <span id="demo_title2"> 解决Revit自带图纸工具一次只能放置单张视图的问题 <br> </span>
+                将所选视图放入新建或现有的图纸空间并自动定位排版 <br>
+                <br>
+                <span id="demo_title1">b. Wall Section By Scope Box 依范围框生成墙身剖面图 <br></span>
+                <span id="demo_title2"> 解决Revit制作多张平立剖面图步骤繁复的问题 <br> </span>
+                依所选范围框生成墙身详图的相关平, 立, 剖面和三维视图 <br>
+                <br>
+                <span id="demo_title1">c. Elevations By Walls 依墙体生成各向立面图 <br></span>
+                <span id="demo_title2"> 解决Revit制作各向局部立面图步骤繁复的问题 <br> </span>
+                依所选墙体生成各段立面图和总索引图 <br>
+                <br>
+                <span id="demo_title1">d. Create Section By Grid 以轴线生成多段剖面图 <br></span>
+                <span id="demo_title2"> 解决Revit无法制作展开剖面图的问题 <br> </span>
+                依所选多段轴线生成多段剖面图和三维剖面透视图 <br>
+            </div>
+        </swiper-slide>
+
+
+    </div>
+
+  </div>
+
+</body>

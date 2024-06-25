@@ -1,0 +1,84 @@
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+    rel='stylesheet'>
+    
+    <link rel="stylesheet" href="../asset/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="../css/style0c_demo.css">
+    
+    
+
+  <!-- Swiper JS -->
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script src="../asset/swiper-bundle.min.js"></script>
+    
+    <script src="page00c.js"></script>
+    
+
+</head>
+
+<body>   
+
+  
+    <p class="text_steps" id="text_steps1"> 0 / 0. </p>
+
+  <!-- Controller Button -->
+  <div class="controller" > 
+    <div> <i class='bx bx-chevron-up-circle' id="control_up1"></i> </div>
+    <div> <i class='bx bx-pause-circle' id="control_pause1"></i> </div>
+    <div> <i class='bx bx-chevron-down-circle' id="control_down1"></i> </div>
+    
+    <div> <i class='bx bx-plus-circle ' id="control_plus1"></i> </div>
+    <div> <i class='bx bx-minus-circle' id="control_minus1"></i> </div>
+    
+    <div> <i class='bx bx-expand' id="control_all1"></i> </div>
+    <div> <i class='bx bx-mobile-landscape' id="control_rotate1"></i> </div>
+  </div>  
+
+  
+  <!-- Swiper Progress -->
+  <div class="swiper-pagination progress1" ></div>
+
+  <div class="autoplay-progress progress1">
+    <svg viewBox="0 0 48 48">
+      <circle cx="24" cy="22" r="15" ></circle>
+    </svg>
+    <span class="circle_text"></span>
+  </div>
+  
+  
+
+
+<!-- Swiper Content -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      
+        <swiper-slide class="swiper-slide" >
+            <div class="demo_intro swiper-zoom-container" >
+                <img src="../img_demo/3.jpg" class="demo_img"> <br>  
+                03页签目前已制作三个主要工具:  <br> 
+                <br> 
+                <span id="demo_title1">a. Create Str Frame by Grids 依柱网生成梁柱结构   <br>  </span> 
+                <span id="demo_title2"> 解决Revit自带结构工具一次只能生成一根的问题 <br> </span>
+                于三维视图中选取多个楼板模型, 将自动获取与楼板相交的轴网生成结构梁柱模型 <br> 
+                <br> 
+                <span id="demo_title1">b. Create Walls by Floor Contour 依楼板生成外墙 <br>  </span>   
+                <span id="demo_title2"> 解决Revit自带描边生成墙体困难和容易偏差的问题 <br> </span>        
+                于三维视图中点选单一楼板模型, 依照延伸的楼层和偏移 对楼板外缘生成外墙 <br> 
+                <br> 
+                <span id="demo_title1">c. Add Void Symbol to Floor 依楼板添加挑空线 <br> </span>
+                <span id="demo_title2"> 解决Revit自带放置符号工具一次只能放置一个的问题 <br> </span>
+                于三维视图或平面图中选取楼板模型, 依照选项自动添加挑空符号 <br> 
+
+            </div>
+        </swiper-slide>
+
+
+    </div>
+
+    
+  </div>
+
+</body>

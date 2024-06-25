@@ -1,0 +1,92 @@
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+    rel='stylesheet'>
+    
+    <link rel="stylesheet" href="../asset/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="../css/style0c_demo.css">
+    
+    
+
+  <!-- Swiper JS -->
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script src="../asset/swiper-bundle.min.js"></script>
+    
+    <script src="page00c.js"></script>
+    
+
+</head>
+
+<body>   
+
+  
+    <p class="text_steps" id="text_steps1"> 0 / 0. </p>
+
+
+  <!-- Controller Button -->
+  <div class="controller" > 
+    <div> <i class='bx bx-chevron-up-circle' id="control_up1"></i> </div>
+    <div> <i class='bx bx-pause-circle' id="control_pause1"></i> </div>
+    <div> <i class='bx bx-chevron-down-circle' id="control_down1"></i> </div>
+    
+    <div> <i class='bx bx-plus-circle ' id="control_plus1"></i> </div>
+    <div> <i class='bx bx-minus-circle' id="control_minus1"></i> </div>
+    
+    <div> <i class='bx bx-expand' id="control_all1"></i> </div>
+    <div> <i class='bx bx-mobile-landscape' id="control_rotate1"></i> </div>
+  </div>  
+
+  
+  <!-- Swiper Progress -->
+  <div class="swiper-pagination progress1" ></div>
+
+  <div class="autoplay-progress progress1">
+    <svg viewBox="0 0 48 48">
+      <circle cx="24" cy="22" r="15" ></circle>
+    </svg>
+    <span class="circle_text"></span>
+  </div>
+  
+  
+
+<!-- Swiper Content -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      
+        <swiper-slide class="swiper-slide" >
+            <div class="demo_intro swiper-zoom-container" >
+                <img src="../img_demo/1a.jpg" class="demo_img"> <br>    
+                01页签目前已制作三个主要工具, 近似起始面板的预筛选功能, <br>
+                但可同时选取多个不同的类别或类型, 层级由高至低为: <br> <br>
+
+                <span id="demo_title1">a. Select By Category 选取过滤器 (依类别) <br></span>
+                <span id="demo_title1">b. Select By SubCategory 选取过滤器 (依子类别) <br></span>
+                <span id="demo_title1">c. Select By Type 选取过滤器 (依类型) <br></span>
+
+                <span id="demo_title2"> 解决Revit自带筛选功能效能低下的问题， 
+                  <br> 可以文字清单的形式预先过滤要作筛选的物件 </span>                  
+            </div>
+        </swiper-slide>
+
+        <swiper-slide class="swiper-slide">
+          <div class="demo_intro swiper-zoom-container">
+            亦可依当前视图可见物件列出详细的子类别和类型清单: <br>
+            <img src="../img_demo/1a1.png" class="demo_img" > <br>     
+            
+          </div>
+        </swiper-slide>
+
+        <swiper-slide class="swiper-slide">
+          <div class="demo_intro swiper-zoom-container">
+            目前可列出的类型筛选清单如下:  (模型类和特殊类已完成, 注释类待完成) <br> 
+            <img src="../img_demo/1a2.png" class="demo_img"> <br>
+          </div>
+        </swiper-slide>
+
+    </div>
+
+  </div>
+
+</body>

@@ -1,0 +1,95 @@
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+    rel='stylesheet'>
+    
+    <link rel="stylesheet" href="../asset/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="../css/style0c_demo.css">
+    
+    
+
+  <!-- Swiper JS -->
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script src="../asset/swiper-bundle.min.js"></script>
+    
+    <script src="page00c.js"></script>
+    
+
+</head>
+
+<body>   
+
+  
+    <p class="text_steps" id="text_steps1"> 0 / 0. </p>
+
+
+  <!-- Controller Button -->
+  <div class="controller" > 
+    <div> <i class='bx bx-chevron-up-circle' id="control_up1"></i> </div>
+    <div> <i class='bx bx-pause-circle' id="control_pause1"></i> </div>
+    <div> <i class='bx bx-chevron-down-circle' id="control_down1"></i> </div>
+    
+    <div> <i class='bx bx-plus-circle ' id="control_plus1"></i> </div>
+    <div> <i class='bx bx-minus-circle' id="control_minus1"></i> </div>
+    
+    <div> <i class='bx bx-expand' id="control_all1"></i> </div>
+    <div> <i class='bx bx-mobile-landscape' id="control_rotate1"></i> </div>
+  </div>  
+
+  
+  <!-- Swiper Progress -->
+  <div class="swiper-pagination progress1" ></div>
+
+  <div class="autoplay-progress progress1">
+    <svg viewBox="0 0 48 48">
+      <circle cx="24" cy="22" r="15" ></circle>
+    </svg>
+    <span class="circle_text"></span>
+  </div>
+  
+  
+
+<!-- Swiper Content -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      
+      <swiper-slide class="swiper-slide" >
+        <div class="demo_intro swiper-zoom-container" >
+          <span id="demo_title2"> 解决Revit自带幕墙工具只能作横平竖直分隔不够灵活的问题 <br> </span>
+          展开面板后输入竖向和横向间距及重复次数后点击运行按钮, <br> 
+          再选取幕墙模型以自动添加网格分隔线 <br> 
+          <img src="../img_demo/4a1_addAllGrid.gif" class="demo_img"> <br>  
+        </div>
+      </swiper-slide>
+
+      <swiper-slide class="swiper-slide" >
+        <div class="demo_intro swiper-zoom-container" >
+          若需制作跳动上下段不规律的 Pattern, <br> 
+          可先于前一步在垂直向间距输入0 -> 只生成横向分隔<br> 
+          接着将所划分的幕墙嵌板单元替换为子幕墙 -> 替换后使本功能 <br>
+          <img src="../img_demo/4a2_changePanelType.gif" class="demo_img"> <br>  
+        </div>
+      </swiper-slide>
+
+      <swiper-slide class="swiper-slide" >
+        <div class="demo_intro swiper-zoom-container" >
+          展开面板后输入竖向间距及偏移距离后点击运行按钮,  <br>
+          <img src="../img_demo/4a2_addVertSingle.gif" class="demo_img"> <br>  
+        </div>
+      </swiper-slide>
+
+      <swiper-slide class="swiper-slide" >
+        <div class="demo_intro swiper-zoom-container" >
+          亦可仅点选单一子幕墙单元进行划分   <br>
+          <img src="../img_demo/4a2_addVertMulti.gif" class="demo_img"> <br>  
+        </div>
+      </swiper-slide>
+
+    </div>
+
+    
+  </div>
+
+</body>

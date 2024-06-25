@@ -1,0 +1,86 @@
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+    rel='stylesheet'>
+    
+    <link rel="stylesheet" href="../asset/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="../css/style0c_demo.css">
+    
+    
+
+  <!-- Swiper JS -->
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script src="../asset/swiper-bundle.min.js"></script>
+    
+    <script src="page00c.js"></script>
+    
+
+</head>
+
+<body>   
+
+  
+    <p class="text_steps" id="text_steps1"> 0 / 0. </p>
+
+  <!-- Controller Button -->
+  <div class="controller" > 
+    <div> <i class='bx bx-chevron-up-circle' id="control_up1"></i> </div>
+    <div> <i class='bx bx-pause-circle' id="control_pause1"></i> </div>
+    <div> <i class='bx bx-chevron-down-circle' id="control_down1"></i> </div>
+    
+    <div> <i class='bx bx-plus-circle ' id="control_plus1"></i> </div>
+    <div> <i class='bx bx-minus-circle' id="control_minus1"></i> </div>
+    
+    <div> <i class='bx bx-expand' id="control_all1"></i> </div>
+    <div> <i class='bx bx-mobile-landscape' id="control_rotate1"></i> </div>
+  </div>  
+
+  
+  <!-- Swiper Progress -->
+  <div class="swiper-pagination progress1" ></div>
+
+  <div class="autoplay-progress progress1">
+    <svg viewBox="0 0 48 48">
+      <circle cx="24" cy="22" r="15" ></circle>
+    </svg>
+    <span class="circle_text"></span>
+  </div>
+  
+  
+
+
+<!-- Swiper Content -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      
+        <swiper-slide class="swiper-slide" >
+            <div class="demo_intro swiper-zoom-container" >
+                <img src="../img_demo/6.jpg" class="demo_img"> <br>  
+                06页签目前已制作三个主要工具:  <br> 
+                <br> 
+                <span id="demo_title1">a. Dimension by Category 依选取类别生成标注 /  <br>
+                Dimension by Element 依选取元件生成标注 <br>  </span>
+                <span id="demo_title2"> 解决Revit自带标注工具一次只能标注一个物件的问题 <br> </span>
+                于图纸空间依照所选取的平, 立, 剖面视图自动生成相关标注 <br> 
+                或于视图空间选取所需标注的元件和定位辅助线 <br> 
+                <br> 
+                <span id="demo_title1">b. Filled Pattern by Structure 依结构生成填充区域 <br> </span>
+                <span id="demo_title2"> 解决Revit结构与其他模型重叠时绘图顺序出错的问题 <br> </span>
+                依当前视图或所选元件自动生成填充区域 <br> 
+                <br> 
+                <span id="demo_title1">c. Door Legend By Schedule 依明细表创建门窗图表 / <br> </span>
+                <span id="demo_title2"> 解决Revit仅能生成明细表无法快速制作门窗立面图的问题 <br> </span>
+                Update Door Legend 更新门窗图表 <br> 
+                依所选门窗明细表和图例生成或更新门窗图 <br> 
+                
+            </div>
+        </swiper-slide>
+
+
+    </div>
+
+  </div>
+
+</body>

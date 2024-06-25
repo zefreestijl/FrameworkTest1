@@ -1,0 +1,92 @@
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+    rel='stylesheet'>
+    
+    <link rel="stylesheet" href="../asset/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="../css/style0c_demo.css">
+    
+    
+
+  <!-- Swiper JS -->
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script src="../asset/swiper-bundle.min.js"></script>
+    
+    <script src="page00c.js"></script>
+    
+
+</head>
+
+<body>   
+
+  
+    <p class="text_steps" id="text_steps1"> 0 / 0. </p>
+
+
+  <!-- Controller Button -->
+  <div class="controller" > 
+    <div> <i class='bx bx-chevron-up-circle' id="control_up1"></i> </div>
+    <div> <i class='bx bx-pause-circle' id="control_pause1"></i> </div>
+    <div> <i class='bx bx-chevron-down-circle' id="control_down1"></i> </div>
+    
+    <div> <i class='bx bx-plus-circle ' id="control_plus1"></i> </div>
+    <div> <i class='bx bx-minus-circle' id="control_minus1"></i> </div>
+    
+    <div> <i class='bx bx-expand' id="control_all1"></i> </div>
+    <div> <i class='bx bx-mobile-landscape' id="control_rotate1"></i> </div>
+  </div>  
+
+  
+  <!-- Swiper Progress -->
+  <div class="swiper-pagination progress1" ></div>
+
+  <div class="autoplay-progress progress1">
+    <svg viewBox="0 0 48 48">
+      <circle cx="24" cy="22" r="15" ></circle>
+    </svg>
+    <span class="circle_text"></span>
+  </div>
+  
+  
+
+<!-- Swiper Content -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      
+        <swiper-slide class="swiper-slide" >
+            <div class="demo_intro swiper-zoom-container" >
+              <span id="demo_title2"> 解决Revit自带筛选功能效能低下的问题， 
+                <br> 可以文字清单的形式预先过滤要作筛选的物件 </span> <br>
+                <br>
+              Select By Category 选取过滤器 (依类别) 主要分为三个区块: <br>
+              1. 模型类: 三维的基本系统族单元如 墙体, 幕墙, 楼板, 屋顶, 楼梯, 结构 <br>
+              2. 注释类: 二维的基本系统族单元如 基准, 尺寸, 标签, 房间, 视图, 线段 <br>
+              3. 特殊类: 项目内模型或可载如族单元如 内建模型, 载入模型 ,内建符号, 载入符号 <br>
+              <br>
+              <img src="../img_demo/1a1_all.png" class="demo_img"> <br>  
+            </div><br>
+        </swiper-slide>
+
+        <swiper-slide class="swiper-slide">
+          <div class="demo_intro swiper-zoom-container">
+            勾选指定类别后即可在视图中进行筛选, <br>
+            <img src="../img_demo/1a1_cateFilter.gif" class="demo_img" > <br>                 
+          </div>
+        </swiper-slide>
+
+        <swiper-slide class="swiper-slide">
+          <div class="demo_intro swiper-zoom-container">
+            或是不选取元件直接点击完成, 生成子类别清单 <br> 
+            或是点击右上方的 "展开类型清单" , 可跳过子类别的清单直接生成类型清单 <br> 
+            <img src="../img_demo/1a4_typeList.gif" class="demo_img"> <br>
+            <span id="demo_title1">*若该类别的元件数量或类型数量较多 跳过子类别直接列出类型清单需要等待较长时间</span>
+          </div>
+        </swiper-slide>
+
+    </div>
+
+  </div>
+
+</body>
